@@ -71,5 +71,8 @@ const squares = [30, 2, 8, 24, 11];
 //   'Het volume van 11 is 1331'
 // ]
 
+for(let i=0 ; i<squares.length;i++){
+    squares[i] = "Het volume van " + squares[i] + " is " + squares[i]**3;
 
-
+}
+console.log(squares);
