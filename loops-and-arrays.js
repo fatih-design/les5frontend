@@ -36,7 +36,15 @@ const numbers = [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 4, 8, 15, 87, 76 ];
 
+for(let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        numbers[i] = numbers[i] * 2;
 
+    } else {
+        numbers[i] = numbers[i] * 3;
+    }
+}
+console.log(numbers);
 
 
 
