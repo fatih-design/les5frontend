@@ -26,7 +26,15 @@ for(i=0; i < 6; i++){
 // loop...
 // klaar!
 // ==========================================
+for(i=0 ; i < 5 ;i++){
+    if(i === 4){
+        console.log("klaar");
+    } else {
+        let a = "loop";
+        console.log(a);
+    }
 
+}
 
 
 
