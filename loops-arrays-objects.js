@@ -116,8 +116,14 @@ console.log(scores);
 //   { firstName: 'Mark', lastName: 'Rensen', email: 'Mark.Rensen@novi.nl' },
 //  ];
 // ==========================================
+for(let i=0;i<NOVIEmployees.length;i++) {
 
 
+let b=NOVIEmployees[i]["firstName"] + "." + NOVIEmployees[i]["lastName"] + "@novi.nl";
+let c= b;
+NOVIEmployees[i]["email"]=c;
+}
+console.log(NOVIEmployees);
 
 
 
