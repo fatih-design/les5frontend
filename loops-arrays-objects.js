@@ -72,9 +72,28 @@ for(let i=0;i<scores.length;i++) {
 //  { name: 'Rianne', score: 66, grade: 'D' }
 //  ];
 // ==========================================
+for(let i = 0; i < scores.length;i++) {
+   let a=scores[i]["score"];
+   let b= a;
+   if(a<60){
+       b="F";
+   }
+   else if (a<70){
+       b="D";
+   }
+   else if (a<80) {
+       b="C";
+   }
+   else if (a<90) {
+       b="B";
+   }
+   else if (a<100) {
+       b="A";
+   }
+   scores[i]["grade"]=b;
+}
 
-
-
+console.log(scores);
 
 // ==========================================
 // Opdracht 2
